@@ -29,6 +29,7 @@ class ProductDescription extends StatelessWidget {
         )
       ),
       child: SafeArea(
+        bottom: true,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[

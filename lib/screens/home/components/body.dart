@@ -25,7 +25,7 @@ class Body extends StatelessWidget {
               builder: (context, snapshot) => 
                 snapshot.data != null ? Categories(
                   categories: snapshot.data,
-                ) : Center(child: new Image.asset("assets/riple.svg"))
+                ) : Center(child: Image.asset("assets/ellipsis.gif"))
             ),
             Divider(height: 5,),
             Padding(
@@ -37,7 +37,7 @@ class Body extends StatelessWidget {
               builder: (context, snapshot) => 
                 snapshot.data != null? RecommedProduct(
                   products: snapshot.data,
-                ) : Center(child: new Image.asset("assets/riple.svg"))
+                ) : Center(child: Image.asset("assets/ellipsis.gif"))
             ),
           ],  
         ),
